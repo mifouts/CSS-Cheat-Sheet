@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .box {
     border: 4px solid lightgray;
     width: 100px;
@@ -21,3 +25,35 @@
     justify-content: space-between;
     padding: 24px;
 }
+
+.title{
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.container-2{
+    border: 4px solid lightgray;
+    padding: 24px 24px 0px 24px;
+
+}
+
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.box-2{
+    border: 4px solid lightgray;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+
+.box-wrapper-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
